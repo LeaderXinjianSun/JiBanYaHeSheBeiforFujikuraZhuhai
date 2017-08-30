@@ -88,7 +88,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="501 -45";
+  MRUHorzDock:="501 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -113,7 +113,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="501 -45";
+  MRUHorzDock:="501 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -162,7 +162,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="300 -45";
+  MRUHorzDock:="300 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -253,7 +253,8 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=202;
+   Yscroll:=175;
+   Mag:=132;
   END;
   nViews:=1;
  END;
