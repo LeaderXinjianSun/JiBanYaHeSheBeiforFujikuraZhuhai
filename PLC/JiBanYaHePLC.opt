@@ -253,7 +253,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=175;
+   Yscroll:=68;
    Mag:=132;
   END;
   nViews:=1;
